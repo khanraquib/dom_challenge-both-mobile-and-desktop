@@ -7,7 +7,7 @@
 
   <title>DOM - CSS</title>
   <link rel="stylesheet" href="/main.css">
-  
+  <script src="/script.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
 </head>
 
@@ -25,11 +25,15 @@
 
       <div class="form">
         <form action="">
-          <input type="text" placeholder="First name">
-          <input type="text" placeholder="Last name">
-          <input type="email" placeholder="Email Address">
-          <input type="password" placeholder="Password">
-          <button>CLAIM YOUR FREE TRAIL</button>
+          <input type="text" placeholder="First name" id="first_name" value="">
+          <p id="message"></p>
+          <input type="text" placeholder="Last name" value="" id="last_name">
+          <p id="message1"></p>
+          <input type="email" placeholder="Email Address" id="email" value="">
+          <p id="message4"></p>
+          <input type="password" placeholder="Password" value="" id="passwor">
+          <p id="message3"></p>
+          <button onclick="return myFun()">CLAIM YOUR FREE TRAIL</button>
         </form>
 
         <p>By clicking the button ,you agreeing to our <span>Terms and Services</span></p>
