@@ -32,7 +32,7 @@ function myFun() {
         return false;
     }
     else  {
-        document.getElementById("message1").innerHTML = " ";
+        document.getElementById("message4").innerHTML = " ";
         document.getElementById("email").style.border = "1px  solid green";
     }
     if (pass == "") {
@@ -42,8 +42,8 @@ function myFun() {
     }
 
     else  {
-        document.getElementById("message1").innerHTML = " ";
-        document.getElementById("email").style.border = "1px  solid green";
+        document.getElementById("message3").innerHTML = " ";
+        document.getElementById("passwor").style.border = "1px  solid green";
     }
 }
 
