@@ -94,9 +94,15 @@ background-color:hsl(248, 32%, 49%) ;
        display: flex;
        justify-content: space-evenly;
    } 
+  .ltc {
+      width: 50%;
+      line-height: 1cm;
+      font-size: 1px;
+  }
    .filling{
        width: 45%;
       margin-top: 30px;
+      margin-left: -20px;
    }
    .header{
        
@@ -104,7 +110,7 @@ background-color:hsl(248, 32%, 49%) ;
        width: 45%;
        margin-top: 200px;
        margin-left: 40px;
-       margin-right: 30px;
+       margin-right:-70px;
        letter-spacing: 1px;
        line-height: 20px;
    }
@@ -113,8 +119,11 @@ background-color:hsl(248, 32%, 49%) ;
        
    }
    .header h2{
-       font-weight: 700;
-       font-size: 2rem;
+       width: 100%;
+       font-weight: 900;
+       font-size: 3rem;
+       line-height: 50px;
+       letter-spacing: 1px;
    }
    body{
        background-image:url(images/bg-intro-desktop.png);
